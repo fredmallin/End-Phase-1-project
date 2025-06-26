@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AutoXpress</title>
+ <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">AutoXpress</div>
+    <P>Simplifying buying and selling of cars</P>
+    <ul>
+      <li><a href="#">Hero</a></li>
+      <li><a href="#">Search</a></li>
+    </ul>
+  </nav>
+
+<section class="hero">
+  <img src="d7abc071-13ee-4629-a08a-ef6d75b7898a.jpeg" alt="Featured Car" class="hero-img" />
+  <div class="hero-text">
+    <h1>Welcome to AutoXpress</h1>
+    <p>Find your perfect ride — fast, reliable, and verified.</p>
+    <button>Browse Cars</button>
+  </div>
+</section>
+
+
+  <header>
+    <h1>AutoXpress</h1>
+    <p>Simplifying car buying and selling</p>
+  </header>
+  <section class="filter-section">
+    <h2>Search Cars</h2>
+    <input type="text" id="searchBrand" placeholder="Search by brand" />
+
+    <div class="price-filter">
+      <input type="number" id="minPrice" placeholder="Min price" />
+      <input type="number" id="maxPrice" placeholder="Max price" />
+      <button id="filterBtn">Filter</button>
+    </div>
+  </section>
+  <section id="carListSection">
+  <h2>Available Cars</h2>
+  <div id="carList" class="car-list">
+    <div class="car-card">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMcjcnqOvpvonxQI4CVBIjN5eA2bbhhlCrRQ&s" alt="Subaru Impreza WRX" />
+  <h3>Subaru Impreza WRX</h3>
+  <p><strong>Brand:</strong> Subaru</p>
+  <p><strong>Price:</strong> Ksh 1,450,000</p>
+  <p><strong>Location:</strong> Nairobi</p>
+  <p><strong>Contact:</strong> 0722123456</p>
+  <p>2023 model, manual transmission</p>
+      <button class="delete-btn">Delete</button>
+    </div>
+    <div class="car-card">
+    <img src="https://www.motortrend.com/uploads/2022/02/2022-Mercedes-Benz-G-Class-AMG-G63-22.jpg" alt="Mercedes-Benz G-Wagon">
+    <div class="car-info">
+      <h2>Mercedes-Benz G-Wagon</h2>
+      <p><strong>Brand:</strong> Mercedes</p>
+      <p><strong>Price:</strong> Ksh 9,500,000</p>
+      <p><strong>Location:</strong> Mombasa</p>
+      <p><strong>Contact:</strong> 0748257989</p>
+      <p><strong>Description:</strong> Luxury 4x4, black edition. 2022 model.</p>
+      <button class="delete-btn">Delete</button>
+    </div>
+  </div>
+</section>
+
+
+  <section class="form-section">
+  <form id="addCarForm">
+    <h2>Post a Car</h2>
+    <ol>
+      <li>
+        <label for="carTitle">Car Title</label>
+        <input type="text" id="carTitle" required />
+      </li>
+
+      <li>
+        <label for="carBrand">Brand</label>
+        <input type="text" id="carBrand" required />
+      </li>
+
+      <li>
+        <label for="carPrice">Price (Ksh)</label>
+        <input type="number" id="carPrice" required />
+      </li>
+
+      <li>
+        <label for="carImage">Image URL</label>
+        <input type="url" id="carImage" required />
+      </li>
+
+      <li>
+        <label for="carLocation">Location</label>
+        <input type="text" id="carLocation" required />
+      </li>
+
+      <li>
+        <label for="carContact">Contact Info</label>
+        <input type="text" id="carContact" required />
+      </li>
+
+      <li>
+        <label for="carDescription">Description</label>
+        <textarea id="carDescription" rows="4" required></textarea>
+      </li>
+
+
+      <li>
+        <button type="submit">Submit</button>
+        <p id="successMsg" style="display: none; color: green;">Car submitted successfully!</p>
+      </li>
+    </ol>
+  </form>
+</section>
+
+
+  <footer>
+    <p>&copy; 2025 AutoXpress | Developed by Fredrick Mwangi</p>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+</html>
