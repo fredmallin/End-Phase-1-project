@@ -272,3 +272,52 @@ footer {
 .delete-btn:hover {
   background-color: darkred;
 }
+html {
+  scroll-behavior: smooth;
+}
+
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fbf7f7;
+    padding: 15px 30px;
+    color: white;
+    flex-wrap: wrap;
+  }
+
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .navbar p {
+    margin: 0 20px;
+    font-style: italic;
+  }
+
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .navbar li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .navbar li a:hover {
+    color:#e60000;
+  }
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #fbf9f9; 
+}
+

@@ -37,7 +37,7 @@ function createCarCard(car) {
     <p><strong>Price:</strong> ${car.price}</p>
     <p><strong>Location:</strong> ${car.location}</p>
     <p><strong>Contact:</strong> ${car.contact}</p>
-    <p>${car.description}</p>
+    <p><strong>Description:</strong>${car.description}</p>
     <button class="delete-btn">Delete</button>
   `;
 
@@ -86,3 +86,7 @@ form.addEventListener("submit", function (e) {
 
 //  Run on page load
 loadCars();
+
+
+
+

@@ -1,4 +1,6 @@
 # End-Phase-1-project
+## Demo Video
+[watch the video walkthrough](https://www.loom.com/share/af4eaa5f97a9494f9e6c8c4714c47e35?t=546&sid=2f9e073a-98dd-4d03-bc23-2e424cd44137)
 # Project Name
 AutoXpress
 # problem statement
